@@ -7,7 +7,7 @@
 // delete user.name,
 //   console.log(user);
 
-// let jhon = 100;
+// let jhon = 300;
 // let ann = 160;
 // let peter = 130;
 // let sum = jhon + ann + peter;
@@ -28,11 +28,13 @@
 
 // function isEmpty() {
 //   let schedule = {
-//     name: "blablabla"
+//     // name: "blablabla"
 //   };
 //   for (let i in schedule) {
 //     if (!(i == true)) return false;
+
 //   } return true;
+
 // }
 
 // console.log(isEmpty());
