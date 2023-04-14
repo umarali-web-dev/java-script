@@ -33,25 +33,59 @@
 //   console.log("kiritilgan son 0");
 // }
 
-const lowerNumber = parseInt(prompt('Enter lower number: '));
-const higherNumber = parseInt(prompt('Enter higher number: '));
+// const lowerNumber = parseInt(prompt('Enter lower number: '));
+// const higherNumber = parseInt(prompt('Enter higher number: '));
 
-console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);
+// console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);
 
-// looping from lowerNumber to higherNumber
-for (let i = lowerNumber; i <= higherNumber; i++) {
-  let flag = 0;
+// // looping from lowerNumber to higherNumber
+// for (let i = lowerNumber; i <= higherNumber; i++) {
+//   let flag = 0;
 
-  // looping through 2 to user input number
-  for (let j = 2; j < i; j++) {
-    if (i % j == 0) {
-      flag = 1;
-      break;
-    }
-  }
+//   // looping through 2 to user input number
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) {
+//       flag = 1;
+//       break;
+//     }
+//   }
 
-  // if number greater than 1 and not divisible by other numbers
-  if (i > 1 && flag == 0) {
-    console.log(i);
-  }
+//   // if number greater than 1 and not divisible by other numbers
+//   if (i > 1 && flag == 0) {
+//     console.log(i);
+//   }
+// }
+
+
+// let num = 100;
+
+// for (i = 2; i <= num; i++) {
+//   let son = true;
+//   for (j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       son = false
+//       break
+//     }
+//   }
+//   if (son)
+//     console.log(i);
+// }
+
+
+let num = 5
+
+let toqSon = 0
+let juftSon = 0
+for (i = 1; i < num; i++) {
+  if (i % 2 === 1)
+    toqSon += i
+  console.log(toqSon);
+}
+
+console.log("+++++++++++++");
+
+for (i = 2; i < num; i++) {
+  if (i % 2 === 0)
+    juftSon += i
+  console.log(juftSon);
 }
