@@ -1,16 +1,16 @@
-// let res = {};
+let res = {};
 
-// const getCount = (str) => {
+const getCount = (str) => {
 
-//   for (i of str) {
-//     if (i in res) res[i]++
-//     else res[i] = 1
-//   }
+  for (i of str) {
+    if (i in res) res[i]++
+    else res[i] = 1
+  }
 
-// }
-// getCount("webbarin")
+}
+getCount("webbarin")
 
-// console.log(res);
+console.log(res);
 
 
 // let res = { char: 0, num: 0, string: 0 };

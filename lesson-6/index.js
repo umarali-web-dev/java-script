@@ -26,15 +26,15 @@
 // console.log(`Jami oylik - ${sum} ga teng`);
 
 
-// function isEmpty() {
-//   let schedule = {
-//     // name: "blablabla"
-//   };
-//   for (let i in schedule) {
-//     if (!(i == true)) return false;
+function isEmpty() {
+  let schedule = {
+    // name: "blablabla"
+  };
+  for (let i in schedule) {
+    if (!(i == true)) return false;
 
-//   } return true;
+  } return true;
 
-// }
+}
 
-// console.log(isEmpty());
+console.log(isEmpty());

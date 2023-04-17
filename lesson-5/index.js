@@ -31,9 +31,22 @@
 // console.log(min(1, 1));
 
 
-function pow(x, n) {
-  return x ** n;
-}
-console.log(pow(3, 2));
-console.log(pow(3, 3));
-console.log(pow(1, 100));
+// function pow(x, n) {
+//   return x ** n;
+// }
+// console.log(pow(3, 2));
+// console.log(pow(3, 3));
+// console.log(pow(1, 100));
+
+// let name = "webbrain";
+// function getName() {
+//   console.log(name);
+// }
+// getName()
+
+// let name = "webbrain";
+// function getName() {
+//   name = "wba"
+//   console.log(name);
+// }
+// getName()

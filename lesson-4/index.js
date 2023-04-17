@@ -72,7 +72,7 @@
 // }
 
 
-let num = 5
+let num = 15
 
 let toqSon = 0
 let juftSon = 0
